@@ -11,14 +11,11 @@ The assignment had two problem statements, and both of the problems were related
 ## How to compile & run the assignment?
 Clone the repository and move to project's root directory:
 ```shell
-git clone git@gitlab.com:saranshabd/bobble-ai-assignment.git
-cd bobble-ai-assignment
+git clone https://github.com/NikhilMunna/Bobble.ai-Assignment.git
+cd Bobble.ai-Assignment
 ```
 
-Make sure you are using a Linux environment to run this project. In case you are using another operating system, use the following command to run an Ubuntu 18.04 image inside a Docker container:
-```shell
-docker run -it --rm -v $(pwd)/NodeTest:/usr/src/app ubuntu:18.04 bash
-```
+
 
 Run the following command to build binaries of the assignment project files:
 ```shell
@@ -29,7 +26,7 @@ Once the binaries have been created, you can run the solution code of each of th
 
 ### Dictionary to Trie conversion
 ```shell
-./dict_conversion.out $(word-to-search)
+./FindTheWord.out $(word-to-search)
 ```
 
 ### Reverse searching

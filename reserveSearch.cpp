@@ -1,4 +1,4 @@
-#include "specialTrie/specialTrie.hpp"
+#include "customTrie/customTrie.hpp"
 #include "csv/csv.hpp"
 #include "experimental/filesystem"
 namespace fs = std::experimental::filesystem;
